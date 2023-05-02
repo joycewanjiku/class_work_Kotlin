@@ -3,6 +3,13 @@ fun main() {
     println(user("Lucy",23,"Kenya"))
     println(sum(34,56,78,90,))
     println(avarage(65,89,23,64,87))
+    var age = 21
+    var name = "Joyce"
+    var phonenumber= 254789654
+    var isKenyan =true
+    var email="joycemumbiwanjiku@gmail.com"
+    var weight=67
+     person(name,age,phonenumber,email,isKenyan,weight)
 }
 //1. Create and invoke a function that takes in a users name, age, and nationality and
 // prints out “Hello my name is ${name}, I am ${age} and I am from ${nationality}” e.g
@@ -31,14 +38,14 @@ fun sum(num1:Int,num2:Int,num3:Int,num4: Int):Int{
 //4. You are creating an app to capture a person’s records. Some of the data you will
 //capture includes full name, age, phone number, email, weight in kg, and citizen. For the
 //citizen field, you will track whether a student is a Ugandan or not. (3 points)
-fun person(name: String,age: Int,phoneNumber:String,email:String,weight:Double,citizenship:String){
+fun person(name: String, age: Int, phonenumber: Int, email:String, weight: Boolean, citizenship: Boolean){
    println ("$name")
     println ("$age")
     println ("$String")
-    println ("$phoneNumber")
+    println ("$phonenumber")
     println ("$email")
+    println("$weight")
+    println("$citizenship")
 
 
-
-    println({$age})
 }
